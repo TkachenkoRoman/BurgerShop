@@ -1,0 +1,10 @@
+D:\Web_design\BurgerShop\Shop.Data\obj\Debug\Shop.Data.csprojResolveAssemblyReference.cache
+D:\Web_design\BurgerShop\Shop.Data\bin\Debug\Shop.Data.dll.config
+D:\Web_design\BurgerShop\Shop.Data\bin\Debug\Shop.Data.dll
+D:\Web_design\BurgerShop\Shop.Data\bin\Debug\Shop.Data.pdb
+D:\Web_design\BurgerShop\Shop.Data\bin\Debug\EntityFramework.dll
+D:\Web_design\BurgerShop\Shop.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Web_design\BurgerShop\Shop.Data\bin\Debug\EntityFramework.xml
+D:\Web_design\BurgerShop\Shop.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Web_design\BurgerShop\Shop.Data\obj\Debug\Shop.Data.dll
+D:\Web_design\BurgerShop\Shop.Data\obj\Debug\Shop.Data.pdb
