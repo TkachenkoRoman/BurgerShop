@@ -1,0 +1,49 @@
+﻿
+body {
+    padding-top: 100px;
+}
+
+.navbar-nav li a {
+    line-height: 70px;
+    font-size: 30px;
+    /*font-family: "Franklin Gothic Medium", 'Franklin Gothic', sans-serif;*/
+}
+
+
+.thumbnail img{
+    max-width: 70%;
+}
+
+.thumbnail h3 {
+    text-align: center;
+}
+
+
+.navbar-inverse .navbar-fixed-top .navbar-nav > li > a:hover, .navbar-fixed-top .navbar-nav > li > a:focus {
+    color: black;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-inverse .navbar-fixed-top .navbar-nav > .active > a, .navbar-inverse .navbar-fixed-top .navbar-nav > .active >   
+ a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: silver; /*BACKGROUND color for active*/
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, .05);
+    background-image: none;
+    background-repeat: no-repeat;
+    filter: none;
+    border-bottom: none;
+}
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .2); /*Change rollover cell color here*/
+  }
+
+
+  .navbar-inverse .navbar-fixed-top .navbar-nav > li > a {
+   color: black; /*Change active text color here*/
+    }

@@ -1,4 +1,3 @@
-D:\Web_design\BurgerShop\Shop.WebApi\obj\Debug\Shop.WebApi.csprojResolveAssemblyReference.cache
 D:\Web_design\BurgerShop\Shop.WebApi\bin\Shop.WebApi.dll.config
 D:\Web_design\BurgerShop\Shop.WebApi\bin\Shop.WebApi.dll
 D:\Web_design\BurgerShop\Shop.WebApi\bin\Shop.WebApi.pdb
@@ -71,5 +70,6 @@ D:\Web_design\BurgerShop\Shop.WebApi\bin\ko\System.Spatial.resources.dll
 D:\Web_design\BurgerShop\Shop.WebApi\bin\ru\System.Spatial.resources.dll
 D:\Web_design\BurgerShop\Shop.WebApi\bin\zh-Hans\System.Spatial.resources.dll
 D:\Web_design\BurgerShop\Shop.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+D:\Web_design\BurgerShop\Shop.WebApi\obj\Debug\Shop.WebApi.csprojResolveAssemblyReference.cache
 D:\Web_design\BurgerShop\Shop.WebApi\obj\Debug\Shop.WebApi.dll
 D:\Web_design\BurgerShop\Shop.WebApi\obj\Debug\Shop.WebApi.pdb
