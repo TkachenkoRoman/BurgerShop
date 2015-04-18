@@ -3,3 +3,4 @@ D:\Web_design\BurgerShop\WebUI\bin\WebUI.dll
 D:\Web_design\BurgerShop\WebUI\bin\WebUI.pdb
 D:\Web_design\BurgerShop\WebUI\obj\Debug\WebUI.dll
 D:\Web_design\BurgerShop\WebUI\obj\Debug\WebUI.pdb
+D:\Web_design\BurgerShop\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache

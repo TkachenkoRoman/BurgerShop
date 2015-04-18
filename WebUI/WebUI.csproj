@@ -59,7 +59,8 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\controllers\controllers.js" />
-    <Content Include="app\partials\food.html" />
+    <Content Include="app\partials\items.html" />
+    <Content Include="app\partials\itemDetails.html" />
     <Content Include="app\services\shopService.js" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />

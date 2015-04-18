@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Shop.Data;
 using Shop.Data.Models;
+using System.Diagnostics;
 
 namespace Shop.WebApi.Controllers
 {
@@ -21,6 +22,8 @@ namespace Shop.WebApi.Controllers
             IQueryable<Item> query;
 
             query = TheRepository.GetAllItems();
+
+            Debug.Print("****** Get items from database ******");
 
             return query.ToList();
         }

@@ -2,10 +2,15 @@
 
 app.config(function ($routeProvider) {
     $routeProvider
-        .when('/food',
+        .when('/shop/:category',
             {
-                controller: 'FoodController',
-                templateUrl: '/app/partials/food.html'
+                controller: 'ItemsController',
+                templateUrl: '/app/partials/items.html'
+            })
+        .when('/items/:itemId',
+            {
+                controller: 'ItemsController',
+                templateUrl: '/app/partials/itemDetails.html'
             })
         .otherwise({ redirectTo: '/food' });
 });

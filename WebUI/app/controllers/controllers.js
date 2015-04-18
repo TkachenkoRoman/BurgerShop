@@ -1,13 +1,30 @@
-﻿app.controller('FoodController', function ($scope, shopService) {
+﻿var itemsList = [];
 
-    init();
+app.controller('ItemsController', ['$scope', 'shopService', '$routeParams', function ($scope, shopService, $routeParams) {
 
-    $scope.items = [];
+    $scope.items = itemsList;
 
-    function init() {
+    if (itemsList.length == 0)
+    {
         shopService.getItems(function (data) {
-            $scope.items = data;
-            console.log($scope.items);
+            itemsList = data;
+            $scope.items = itemsList;
         });
     }
-});
+    
+    
+
+    if ($routeParams.itemId != null)
+        $scope.currentItem = getItem($routeParams.itemId);
+
+    function getItem(id) {
+        for (var i = 0; i < itemsList.length; i++) {
+            if (itemsList[i].Id == id) {
+                console.log(itemsList[i]);
+                return itemsList[i];
+            }
+        }
+        return null;
+    };
+}]);
+
