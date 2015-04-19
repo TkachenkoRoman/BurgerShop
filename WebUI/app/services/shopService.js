@@ -1,9 +1,14 @@
 ﻿app.service('shopService', ['$http', function ($http) {
 
-    this.getItems = function (callback) {
-        $http.get('api/api/items').success(function (response) {
-            callback(response);
-            console.log(response);
-        });
+    var service = {
+        items: [],
+        getItems: getItems
+    };
+    return service;
+
+    function getItems() {
+        return $http.get('api/api/items').success(function (response) {
+                service.items = response;
+            });
     };
 }]);

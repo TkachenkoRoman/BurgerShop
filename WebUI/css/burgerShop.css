@@ -1,22 +1,12 @@
-﻿
-body {
+﻿body {
     padding-top: 100px;
 }
 
-.navbar-nav li a {
+/*.navbar-nav li a {
     line-height: 70px;
     font-size: 30px;
-    /*font-family: "Franklin Gothic Medium", 'Franklin Gothic', sans-serif;*/
-}
-
-
-.thumbnail img{
-    max-width: 70%;
-}
-
-.thumbnail h3 {
-    text-align: center;
-}
+    font-family: "Franklin Gothic Medium", 'Franklin Gothic', sans-serif;
+}*/
 
 .navbar-inverse {
     background-color: rgba(0, 0, 0, .05);

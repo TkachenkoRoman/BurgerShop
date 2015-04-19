@@ -6,9 +6,10 @@
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Name" Type="nchar" MaxLength="100" Nullable="false" />
-    <Property Name="Weight" Type="int" />
     <Property Name="Description" Type="ntext" />
     <Property Name="Category" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="Size" Type="nchar" MaxLength="50" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
   </EntityType>
   <EntityType Name="Orders">
     <Key>

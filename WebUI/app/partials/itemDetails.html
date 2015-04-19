@@ -1,13 +1,24 @@
 ﻿<div class="panel panel-default">
     <div class="panel-heading">
-        <h3 class="panel-title">{{ currentItem.Name }}</h3>
+        <h1 class="panel-title">{{ currentItem.Name }}</h1>
     </div>
     <div class="panel-body">
         <div class="row">
-            <div class="span6">
-                <img src="Content/Images/BC-Whopper-thumb.png" />
+            <div class="col-md-4">
+                <img class=" img-responsive center-block" src="Content/Images/BC-Whopper-thumb.png" />
             </div>
-            <div class="span6">...</div>
+            <div class="col-md-8">
+                <p>
+                    <br /><em>Description:<br /></em>{{ currentItem.Description }}<br /><br />
+                    <em>Size: </em>{{ currentItem.Size }}<br /><br />
+                    <em>Price: </em>{{ currentItem.Price }}$
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-default pull-right">Add to cart</button>
+            </div>            
         </div>
     </div>
 </div>

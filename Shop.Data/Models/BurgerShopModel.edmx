@@ -11,9 +11,10 @@
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="nchar" MaxLength="100" Nullable="false" />
-          <Property Name="Weight" Type="int" />
           <Property Name="Description" Type="ntext" />
           <Property Name="Category" Type="nchar" MaxLength="100" Nullable="false" />
+          <Property Name="Size" Type="nchar" MaxLength="50" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
         </EntityType>
         <EntityType Name="Orders">
           <Key>
@@ -81,9 +82,10 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="true" />
-          <Property Name="Weight" Type="Int32" />
           <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Category" Type="String" Nullable="false" MaxLength="100" FixedLength="true" Unicode="true" />
+          <Property Name="Size" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -119,9 +121,10 @@
           <EntitySetMapping Name="Item">
             <EntityTypeMapping TypeName="BurgerShopModel.Item">
               <MappingFragment StoreEntitySet="Item">
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
                 <ScalarProperty Name="Category" ColumnName="Category" />
                 <ScalarProperty Name="Description" ColumnName="Description" />
-                <ScalarProperty Name="Weight" ColumnName="Weight" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>

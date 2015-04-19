@@ -12,9 +12,7 @@ app.config(function ($routeProvider) {
                 controller: 'ItemsController',
                 templateUrl: '/app/partials/itemDetails.html'
             })
-        .otherwise({ redirectTo: '/food' });
+        .otherwise({ redirectTo: '/shop/food' });
 });
-
-
 
 
